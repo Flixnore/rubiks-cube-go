@@ -1,4 +1,4 @@
-module github.com/Flixnore/rubiks-go
+module github.com/Flixnore/rubiks-cube-go
 
 go 1.23.2
 

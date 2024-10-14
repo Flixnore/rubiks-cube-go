@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/Flixnore/rubiks-go/pkg/cube"
+	"time"
+
+	"github.com/Flixnore/rubiks-cube-go/pkg/cube"
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
-	"time"
 )
 
 const tileSize = 30
