@@ -8,6 +8,8 @@ This is a Rubik's Cube simulator written in Go.
 
 Run this to enter a CLI rubik's cube. You can enter multiple moves in [standard Rubik's Cube notation](https://jperm.net/3x3/moves).
 
+![Peek 2024-10-08 18-45](https://github.com/user-attachments/assets/cc1fe8df-1d93-4f7f-9b35-384c88aa10b1)
+
 ```
 go run ./cmd/terminal
 ```
