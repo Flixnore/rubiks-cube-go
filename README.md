@@ -6,7 +6,7 @@ This is a Rubik's Cube simulator written in Go.
 
 ### Terminal
 
-Run this to enter a CLI rubik's cube. You can enter multiple moves in (standard Rubik's Cube notation)[https://jperm.net/3x3/moves].
+Run this to enter a CLI rubik's cube. You can enter multiple moves in [standard Rubik's Cube notation](https://jperm.net/3x3/moves).
 
 ```
 go run ./cmd/terminal
