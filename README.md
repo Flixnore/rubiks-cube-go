@@ -13,7 +13,8 @@ Quickstart (will take a few seconds to build):
 ```
 git clone git@github.com:Flixnore/rubiks-cube-go && cd rubiks-cube-go && go run ./cmd/flat
 ```
-[Controls](https://github.com/Flixnore/rubiks-cube-go/master/README.md#controls)
+[Controls](https://github.com/Flixnore/rubiks-cube-go/tree/master?tab=readme-ov-file#controls)
+
 
 
 ### Terminal
