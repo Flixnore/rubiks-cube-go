@@ -11,6 +11,8 @@ import (
 const tileSize = 30
 const tileTotalSize = 35.0
 const moveTimeout = 150 * time.Millisecond
+const windowX = 445
+const windowY = 340
 
 type Game struct {
 	cube     cube.Cube
@@ -56,7 +58,7 @@ func (g *Game) Update() error {
 
 func (g *Game) Draw(screen *ebiten.Image) {
 	colors := g.cube.State()
-	start := 0.0
+	start := 15.0
 
 	drawNine(screen, colors[0:9], start+tileTotalSize*3, start)
 	drawNine(screen, colors[9:18], start, start+tileTotalSize*3)
@@ -78,5 +80,5 @@ func drawNine(screen *ebiten.Image, colors []cube.Color, posx float64, posy floa
 }
 
 func (g *Game) Layout(outsideWidth, insideWidth int) (int, int) {
-	return 600, 600
+	return windowX, windowY
 }

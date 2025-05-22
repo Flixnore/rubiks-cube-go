@@ -10,7 +10,7 @@ import (
 func main() {
 	c := cube.NewSolved()
 	g := NewGame(c)
-	ebiten.SetWindowSize(600, 600)
+	ebiten.SetWindowSize(windowX, windowY)
 	ebiten.SetWindowTitle("Rubik's Cube")
 	if err := ebiten.RunGame(g); err != nil {
 		log.Fatal(err)
